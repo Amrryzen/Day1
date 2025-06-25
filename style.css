@@ -1,0 +1,56 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+h1{
+    color: black;
+}
+
+img{
+    border-radius: 15%;
+    width: 150px;
+}
+
+.bio{
+    background-color: rgb(116, 192, 192);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    justify-content: center;
+    display: flex;
+    width: 20%;
+    height: 25%;
+    font-size: 10px;
+    color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sosmed{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sosmed a {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sosmed a:hover {
+  transform: scale(1.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sosmed img{
+    width: 30px;
+    height: 30px;
+}
