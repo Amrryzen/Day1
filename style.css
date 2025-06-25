@@ -55,3 +55,14 @@ img{
     width: 40px;
     height: 40px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  img {
+    width: 100px;
+  }
+}
